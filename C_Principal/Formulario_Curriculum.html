@@ -7,22 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Get-a-Job/Pag. Principal</title>
+  <title>Get-a-Job/formulario_Curriculum</title>
   <!-- Bootstrap core CSS-->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilosFormulario.css">
 </head>
 
-<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+<body class="fixed-nav sticky-footer bg-dark" id="page-top" style="background-color: #ebedef;">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top" id="mainNav" style="background-color: #424949;">
     <a class="navbar-brand" href="PagP.html" data-toggle="tooltip" title="Ir a la página principal de Get a Job">
       <img src="LogoF.png" alt="LogoF"/>
-      Get a Job
-      
+      Get a Job 
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -36,9 +36,11 @@
             <div class="input-group">
               <input class="form-control" type="text" placeholder="Buscar..." style="border: none;">
               <span class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fa fa-search"></i>
-                </button>
+                <a id="btnBusqueda" href="P_ResultadosBusqueda.html">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </a>
               </span>
             </div>
           </form>
@@ -187,19 +189,133 @@
 
   <div class="content-wrapper">
     <div class="container-fluid">
-      <!-- Breadcrumbs-->
-      <!--
+    <!-- Breadcrumbs--
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="#">Dashboard</a>
         </li>
         <li class="breadcrumb-item active">Navbar</li>
-      </ol>-->
-      <h1>Solicitantes de Empleo</h1>
+      </ol>
+    -->
+
+      <h1>Formulario Currículum</h1>
       <hr>
-      <a href="../Vista_Perfil.html">Persona ejemplo_1</a>
-      <hr>
-      <a href="../Prototipo_VistaPerfil.html">Persona ejemplo_2</a>
+      <div class="container-fluid cont_1">
+        <ul id="lista_1" style="text-align: center; justify-content: center;">
+
+          <h3>Información básica:</h3>
+          <li id="input_Form">
+            <label id="lbl_inpt">Teléfono: </label>
+            <input id="entradas" class="form-control entradas" type="text" placeholder="Número de teléfono" name="telefono" title="Ingrese su número teléfono" style="" >
+          </li>
+          <li id="input_Form">
+            <label id="lbl_inpt">Celular: </label>
+            <input id="entradas" class="form-control entradas" type="text" placeholder="Número de teléfono celular" name="telefono" title="Ingrese su número de teléfono celular" style="" >
+          </li>
+          <li id="input_Form">
+            <label id="lbl_inpt">Dirección: </label>
+            <input id="entradas" class="form-control entradas" type="text" placeholder="Dirección de domicilio" name="direccion" title="Ingrese su dirección" style="">
+          </li>
+
+          <hr><!--SEPARADOR-->
+
+          <h3>Formación académica:</h3>
+          <li id="input_Form">
+            <label id="lbl_inpt">Título profesional: </label>
+            <input  id="entradas" class="form-control entradas" type="text" name="titulo" required="required" title="Ingrese su título profesional." placeholder="Título profesional">
+          </li>
+          <li id="input_Form" class="aaa">
+            <label id="lbl_inpt">Fecha: </label>
+            <input type="text" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese la fecha en que obtuvo su título profesional." placeholder="Fecha en que obtuvo su título profesional">
+          </li>
+          <li id="input_Form" style="padding-top: 4px;">
+            <label id="lbl_inpt">Institución: </label>
+            <input id="entradas" class="form-control entradas" type="text" placeholder="Institución donde estudio" name="institucion" title="Ingrese el nombre de la institución donde estudio" style="">
+          </li>
+
+          <li id="input_Form">
+            <label id="lbl_inpt">Otros estudios: </label>
+            <input  id="entradas" class="form-control entradas" type="text" name="otrosEstudios" required="required" title="Ingrese otros estudios realizados." placeholder="Otros estudios">
+          </li>
+          <li id="input_Form" class="aaa">
+            <label id="lbl_inpt">Fecha de otros estudios: </label>
+            <input type="text" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese la fecha en que realizo dichos estudios." placeholder="Fecha en que lo realizó">
+          </li>
+          <li id="input_Form" style="padding-top: 4px;">
+            <label id="lbl_inpt">Institución: </label>
+            <input id="entradas" class="form-control entradas" type="text" placeholder="Institución donde lo realizó" name="institucion" title="Ingrese el nombre de la institución donde realizo dichos estudios" style="">
+          </li>
+
+          <hr><!--SEPARADOR-->
+
+          <h3>Experiencia laboral:</h3>
+          <li id="input_Form">
+            <label id="lbl_inpt">Trabajo mas reciente: </label>
+            <input  id="entradas" class="form-control entradas" type="text" name="trbjRenct" required="required" title="Ingrese su trabajo mas reciente." placeholder="Trabajo mas reciente">
+          </li>
+          <li id="input_Form" style="padding-top: 4px;">
+            <label id="lbl_inpt">Institución: </label>
+            <input id="entradas" class="form-control entradas" type="text" placeholder="Institución donde trabajó" name="instTrbjR" title="Ingrese el nombre de la institución donde trabajó." style="">
+          </li>
+          <li id="input_Form" class="aaa">
+            <label id="lbl_inpt">Fecha: </label>
+            <input type="text" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese el período durante el que trabajó." placeholder="Período en que trabajó">
+          </li>
+          <li id="input_TxtArea" class="aaa" >
+            <textarea id="entradas" class="form-control entradas" required="required" title="Ingrese el período durante el que trabajó." placeholder="Descripción de la labor que desempeñaba"></textarea>
+          </li>
+
+          <li id="input_Form">
+            <label id="lbl_inpt">Otros mas reciente: </label>
+            <input  id="entradas" class="form-control entradas" type="text" name="OtrbjRenct" required="required" title="Ingrese otro trabajo." placeholder="Otros trabajos">
+          </li>
+          <li id="input_Form" style="padding-top: 4px;">
+            <label id="lbl_inpt">Institución: </label>
+            <input id="entradas" class="form-control entradas" type="text" placeholder="Institución donde trabajó" name="OinstTrbjR" title="Ingrese el nombre de la institución donde trabajó." style="">
+          </li>
+          <li id="input_Form" class="aaa">
+            <label id="lbl_inpt">Fecha: </label>
+            <input type="text" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese el período durante el que trabajó." placeholder="Período en que trabajó">
+          </li>
+          <li id="input_TxtArea" class="aaa">
+            <textarea id="entradas" class="form-control entradas" required="required" title="Ingrese el período durante el que trabajó." placeholder="Descripción de la labor que desempeñaba"></textarea>
+          </li>
+
+          <hr><!--SEPARADOR-->
+
+          <h3>Habilidades laborales:</h3>
+          <li id="input_TxtArea" class="aaa">
+            <textarea id="entradas" class="form-control entradas" required="required" title="Ingrese sus habilidades laborales." placeholder="Ingrese las habilidades que posee como profesional, que favorecen su desempeño laboral"></textarea>
+          </li>
+
+          <hr><!--SEPARADOR-->
+
+          <h3>Objetivo profesional:</h3>
+          <li id="input_TxtArea" class="aaa">
+            <textarea id="entradas" class="form-control entradas" required="required" title="Ingrese su objetivo profesional." placeholder="Ingrese los ojetivos que tiene planteado como profesional"></textarea>
+          </li>
+
+        <!--
+          <li id="s"><input type="checkbox"> Persona Jurídica</li>
+          <li id="s"><input type="checkbox"> Entidad Gubernamental</li>
+          <li id="s"><input type="checkbox"> Consorcio</li>
+          <li id="s"><input type="checkbox"> Asociaciones sin fin de lucro</li>
+          <br>
+          <br>
+          <label style="float: left;"><strong>Provee:</strong></label>
+          <li id="s2"><input type="checkbox"> Cooperativa</li>
+          <li id="s2"><input type="checkbox"> Bienes</li>
+          <li id="s2"><input type="checkbox"> Servicios</li>
+          <li id="s2"><input type="checkbox"> Consultoría</li>
+          <li id="s2"><input type="checkbox"> Obras</li>
+          <br>
+        -->
+          
+
+        </ul>
+      </div>
+      
+      
     </div>
     <!-- /.container-fluid-->
     <!-- /.content-wrapper-->

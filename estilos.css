@@ -196,3 +196,6 @@ a[id="iPerfil"]{
 	text-align: center;
 }
 /*---------------------------------------*/
+body.sidenav-toggled .navbar-sidenav-tooltip.show {
+  display: flex;
+}
