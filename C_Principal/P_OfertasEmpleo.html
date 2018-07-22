@@ -14,15 +14,15 @@
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/body.css">
 </head>
 
-<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+<body class="fixed-nav sticky-footer " id="page-top" style="background-color: #ebedef;">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top" id="mainNav" style="background-color: #424949;">
     <a class="navbar-brand" href="PagP.html" data-toggle="tooltip" title="Ir a la página principal de Get a Job">
       <img src="LogoF.png" alt="LogoF"/>
-      Get a Job
-      
+      Get a Job 
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -36,9 +36,11 @@
             <div class="input-group">
               <input class="form-control" type="text" placeholder="Buscar..." style="border: none;">
               <span class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fa fa-search"></i>
-                </button>
+                <a id="btnBusqueda" href="P_ResultadosBusqueda.html">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </a>
               </span>
             </div>
           </form>
@@ -49,26 +51,17 @@
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Ir a la sección de solicitantes">
           <a class="nav-link" href="P_Solicitantes.html">
             <i class="fa fa-fw fa-group"></i>
-            <span class="nav-link-text">Solicitantes</span>
+            
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Ir a la sección de ofertas de empleo">
           <a class="nav-link" href="P_OfertasEmpleo.html">
             <i class="fa fa-fw fa-briefcase"></i>
-            <span class="nav-link-text">Ofertas de empleo</span>
-          </a>
+                      </a>
         </li>
       </ul>
 
-      <!--OCULTA_EL_NAVBAR(<)-->
-      <ul class="navbar-nav sidenav-toggler">
-        <li class="nav-item">
-          <a class="nav-link text-center" id="sidenavToggler">
-            <i class="fa fa-fw fa-angle-left"></i>
-          </a>
-        </li>
-      </ul>
-
+      
       <!--BARRA-SUPERIOR-->
       <ul class="navbar-nav ml-auto">
 
@@ -96,10 +89,10 @@
             </a>
 
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <!--
+            <a class="dropdown-item" href="../chat/plantilla_chat.html">
+              
               <strong>Jane Smith</strong>
-              <span class="small float-right text-muted">11:21 AM</span>
+             <!-- <span class="small float-right text-muted">11:21 AM</span>
               <div class="dropdown-message small">I was wondering if you could meet for an appointment at 3:00 instead of 4:00. Thanks!</div>-->
             </a>
 
@@ -111,7 +104,9 @@
               <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can discuss distribution.</div>-->
             </a>
 
-            <div class="dropdown-divider"></div>
+            <div class="dropdown-divider">
+             
+            </div>
             <a class="dropdown-item small" href="#">Ver todos los mensajes.</a>
           </div>
         </li>
@@ -169,7 +164,7 @@
 
         <!--ICONO-PERFIL-->
         <li class="nav-item">
-          <a class="nav-link" href="Formulario_Curriculum.html">
+          <a class="nav-link" href="../Prototipo_VistaPerfil.html">
             <i class="fa fa-fw fa-user" data-toggle="tooltip" title="Ir a mi perfil"></i>
             <span class="d-lg-none">Mi Perfil</span>
           </a>
@@ -186,18 +181,19 @@
   </nav>
 
   <div class="content-wrapper">
-    <div class="container-fluid">
-      <!-- Breadcrumbs-->
-      <!--
+    <div class="container">
+      <!-- Breadcrumbs
+      
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="#">Dashboard</a>
         </li>
         <li class="breadcrumb-item active">Navbar</li>
       </ol>-->
-      <h1>Ofertas de Empleo</h1>
-      <hr>
-      <p>The SB Admin navbar can be either fixed or static, and it supports the navbar-light and navbar-dark Bootstrap 4 classes.</p>
+      <!--CONTENIDO-->
+
+      
+     hh
       
     </div>
     <!-- /.container-fluid-->

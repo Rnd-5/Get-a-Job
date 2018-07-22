@@ -197,5 +197,5 @@ a[id="iPerfil"]{
 }
 /*---------------------------------------*/
 body.sidenav-toggled .navbar-sidenav-tooltip.show {
-  display: flex;
+  display: none;
 }
