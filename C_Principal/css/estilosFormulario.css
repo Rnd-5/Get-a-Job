@@ -1,13 +1,13 @@
 .cont_1{
 	border-radius: 15px;
-	background: #424949;
+	background: #E6E6E6;
 }
-label{
-	color: #2EFE64;
-}
-h3[id="titulo"]{
-	color:#FFFFFF;
 
+
+}
+#tama{
+	width:   460px;
+	padding: 8px;
 }
 .btn-enviar{
     
@@ -34,6 +34,12 @@ li[id="input_Form"] #entradas{
 	height: 46px;
 
 }
+#ent{
+	width: 40em;
+	position: static;
+	height: 100px;
+}
+
 li[id="input_Form"] #lbl_inpt{
 	display: none;
 	float: left;

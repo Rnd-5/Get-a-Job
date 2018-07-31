@@ -7,18 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Get-a-Job/Pag. Principal</title>
+  <title>Get-a-Job/formulario_Curriculum</title>
   <!-- Bootstrap core CSS-->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/body.css">
-  
+  <link rel="stylesheet" href="css/estilosFormulario.css">
 </head>
 
-<body class="fixed-nav sticky-footer " id="page-top" style="background-color: #ebedef;">
+<body class="fixed-nav sticky-footer bg-dark" id="page-top" style="background-color: #ebedef;">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top" id="mainNav" style="background-color: #424949;">
     <a class="navbar-brand" href="PagP.html" data-toggle="tooltip" title="Ir a la página principal de Get a Job">
@@ -58,11 +57,10 @@
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Ir a la sección de ofertas de empleo">
           <a class="nav-link" href="../p_e.html">
             <i class="fa fa-fw fa-briefcase"></i>
-                      </a>
+            
+          </a>
         </li>
       </ul>
-
-      
       <!--BARRA-SUPERIOR-->
       <ul class="navbar-nav ml-auto">
 
@@ -90,10 +88,10 @@
             </a>
 
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../chat/plantilla_chat.html">
-              
+            <a class="dropdown-item" href="#">
+              <!--
               <strong>Jane Smith</strong>
-             <!-- <span class="small float-right text-muted">11:21 AM</span>
+              <span class="small float-right text-muted">11:21 AM</span>
               <div class="dropdown-message small">I was wondering if you could meet for an appointment at 3:00 instead of 4:00. Thanks!</div>-->
             </a>
 
@@ -105,9 +103,7 @@
               <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can discuss distribution.</div>-->
             </a>
 
-            <div class="dropdown-divider">
-             
-            </div>
+            <div class="dropdown-divider"></div>
             <a class="dropdown-item small" href="#">Ver todos los mensajes.</a>
           </div>
         </li>
@@ -182,18 +178,126 @@
   </nav>
 
   <div class="content-wrapper">
-    <div class="container">
-      <!-- Breadcrumbs
-      
+    <div class="container-fluid">
+    <!-- Breadcrumbs--
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="#">Dashboard</a>
         </li>
         <li class="breadcrumb-item active">Navbar</li>
-      </ol>-->
-      <!--CONTENIDO-->
-     
-    
+      </ol>
+    -->
+	</div>
+      <h1 class="text-md-center" id="titulo">Formulario Currículum</h1>
+      <hr>
+      
+      	<div class="container cont_1"  >
+			<h3 id="titulo">Datos publicador</h3>
+      		<div class="form-group row">
+
+			  <div class="col-xs-4" style="padding: 8px">
+			    <label for="ex1">Nombre empresa</label>
+			    <input class="form-control" id="ex1" type="text" placeholder="escribe el nombre de tu empresa" title="escribe el nombre de tu empresa">
+			  </div>
+			  <div class="col-xs-4" style="padding: 8px">
+			    <label for="ex2">Cargo</label>
+			    <input class="form-control" id="ex2" type="text" placeholder="Escriba el cargo que jerce en esta intitucion" title="Escriba el cargo que jerce en esta intitucion">
+			  </div>
+			  <div class="col-xs-4" style="padding: 8px">
+			    <label for="ex3">Direccion</label>
+			    <input class="form-control" id="ex3" type="text" placeholder="Escribe la direccion de tu empresa" title="Escribe la direccion de tu empresa">
+			  </div>
+			</div>
+
+			<hr><!--SEPARADOR-->
+
+			<h3 id="titulo">Puesto :</h3>
+			<div class="form-group row ">
+
+					<div class="col-xs-8" style="width:   490px">
+						<label>Funcion laboral</label>
+					<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+				           <option value="" >Seleccione una</option>
+				              <option value="" ">Programador </option>
+				               <option value="" >Arte y creatividad</optio>
+				               <option value="" >Atencion al cliente</option>
+				               <option value="" >ciencia</option>
+				               <option value="" >Compras</option>
+				               <option value="" >Gestion</option>
+		             </select>
+					
+					</div>
+					
+					<div class="col-xs-4"  >
+						<label  >Tipo de empleo:</label>
+						<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+
+				           <option value="" >Seleccione </option>
+				              <option value="" ">Jornada completa </option>
+				               <option value="" >Media jornada</optio>
+				               <option value="" >Jornada por hora</option>
+				               <option value="" >Temporal</option>
+				               <option value="" >Voluntaria</option>
+				               <option value="" >Practicas</option>
+				             </select>
+					</div>
+
+
+			</div>
+          
+          <div class="form-group row">
+            <div class="col-xs-8"  >
+            <label>sector de la empresa:</label>
+          <select name="titulo" id="inputTitulo" class="form-control tama"  required="required" title="Seleccione el titulo adquirido." >
+                   <option value="" >Seleccione una</option>
+                      <option value="" ">Desarrollo </option>
+                       <option value="" >Alimentacion y bebida</optio>
+                       <option value="" >Almacenamiento</option>
+                       <option value="" >Articulo de consumo</option>
+                       <option value="" >frond-end</option>
+                       <option value="" >Gestion</option>
+                 </select>
+          
+          </div>
+          
+          <div class="col-xs-4"  >
+            <label  >Nivel de antiguedad:</label>
+            <select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+
+                   <option value="" >Seleccione </option>
+                      <option value="" ">Sin experiencia </option>
+                       <option value="" >algo de responsabilidad</optio>
+                       <option value="" >Director</option>
+                       <option value="" >Ejecutivo</option>
+                       <option value="" >MANDO INTERMEDIO</option>
+                       <option value="" >Practicas</option>
+                     </select>
+          </div>
+
+          </div>
+          <h3></h3>
+          <textarea id="ent" class="form-control " required="required" title="." placeholder=" Describa el empleo efrecido"></textarea>
+          
+			<hr><!--SEPARADOR-->
+      <h3 id="titulo">Introdusca informacio sobre la empresa</h3>
+			<textarea id="ent" class="form-control " required="required" title="." placeholder=" Describa el empleo efrecido"></textarea>
+      <br>
+      <div class="form-group">
+        <h6>Esta usted de acurdo con los ternos y politicas de nuesta pagina</h3>
+        <input type="radio" name="si" ><label>si</label>
+        
+        <input type="radio" name="no"><label >no</label>
+        
+      </div>
+         
+		<button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
+      	</div>
+      	
+      
+ 
+      
+      
+    </div>
     <!-- /.container-fluid-->
     <!-- /.content-wrapper-->
     <footer class="sticky-footer">
