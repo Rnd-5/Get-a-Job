@@ -18,7 +18,7 @@ body{
 	padding:0;
 }
 .main-section .section ul li{
-	display: inline-block;
+	display: block;
  	margin-bottom:20px;
   	cursor: grab;
   	cursor: -moz-grab;
@@ -29,12 +29,12 @@ body{
 	margin-bottom:0;
 }
 .main-section .section .media{
-	padding:0px 15px; 
+	padding:2px ; 
 	border-radius: 5px;
  	background:#fff;
 }
 .main-section .media .media-left img{
-	width:75px;
+	width:55px;
 	border:2px solid #000;
 	padding:2px;
 }
@@ -44,17 +44,18 @@ body{
 }
 .main-section .media .media-body h4 {
 	color: #6b456a; 
-	font-size: 18px; 
+	font-size: 16px; 
  	padding-left: 14px;
  	margin:20px 0px 0px;
 }
+
 .btn-custom{
 	background:#00AAA0; 
 	background: url(https://i.pinimg.com/originals/4b/d2/d0/4bd2d03adfe9059518a937030cf373e4.jpg) no-repeat;
 	color:#fff; 
 	border-radius:30px; 
 	border:none; 
-	font-size:16px;
+	font-size:10px;
 } 
 .btn-custom:hover{
 	color:#fff;

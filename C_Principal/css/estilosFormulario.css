@@ -1,10 +1,19 @@
 .cont_1{
 	border-radius: 15px;
-	border: 1px; 
-	width: 55em;
 	background: #424949;
 }
+label{
+	color: #2EFE64;
+}
+h3[id="titulo"]{
+	color:#FFFFFF;
 
+}
+.btn-enviar{
+    
+
+    margin-right: 200px;
+}
 ul[id="lista_1"]{
 	list-style: none;
 	padding: 2px;
