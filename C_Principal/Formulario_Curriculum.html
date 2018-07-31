@@ -51,28 +51,16 @@
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Ir a la sección de solicitantes">
           <a class="nav-link" href="P_Solicitantes.html">
             <i class="fa fa-fw fa-group"></i>
-            <span class="nav-link-text">Solicitantes</span>
+            
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Ir a la sección de ofertas de empleo">
-          <a class="nav-link" href="P_OfertasEmpleo.html">
+          <a class="nav-link" href="../p_e.html">
             <i class="fa fa-fw fa-briefcase"></i>
-            <span class="nav-link-text">Ofertas de empleo</span>
+            
           </a>
         </li>
       </ul>
-
-      <!--OCULTA_EL_NAVBAR(<)-->
-      <ul class="navbar-nav sidenav-toggler" id="">
-        <li class="nav-item">
-          <a class="nav-link text-center" id="sidenavToggler">
-            <i class="fa fa-fw fa-angle-left"  ></i>
-          </a>
-        </li>
-      </ul>
-
-      
-
       <!--BARRA-SUPERIOR-->
       <ul class="navbar-nav ml-auto">
 
@@ -203,7 +191,9 @@
       <h1 class="text-md-center">Formulario Currículum</h1>
       <hr>
       <div class="container-fluid cont_1">
-        <ul id="lista_1" style="text-align: center; justify-content: center;">
+      	<div class="row">
+      		<div  >
+      			<ul id="lista_1" style="text-align: center; justify-content: center;">
 
           <h3>Información básica:</h3>
           <li id="input_Form">
@@ -221,18 +211,34 @@
 
           <hr><!--SEPARADOR-->
 
-          <h3>Formación académica:</h3>
-          <li id="input_Form">
-            <label id="lbl_inpt">Título profesional: </label>
-            <input  id="entradas" class="form-control entradas" type="text" name="titulo" required="required" title="Ingrese su título profesional." placeholder="Título profesional">
+          <h3>Edicacion:</h3>
+          <li id="input_Form" class="aaa">
+          	<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+           <option value="" >Seleccione su titulo</option>
+              <option value="" ">Ing. Sistemas </option>
+                <option value="" >Ing.agronomo</optio>
+               <option value="" >Abogado</option>
+               <option value="" >Telematico</option>
+               <option value="" >Ing.civil</option>
+               <option value="" >Ing. Industrial</option>
+             </select>
           </li>
+          	 
+
           <li id="input_Form" class="aaa">
             <label id="lbl_inpt">Fecha: </label>
-            <input type="text" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese la fecha en que obtuvo su título profesional." placeholder="Fecha en que obtuvo su título profesional">
+            <input type="date" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese la fecha en que obtuvo su título profesional." placeholder="Fecha en que obtuvo su título profesional">
           </li>
-          <li id="input_Form" style="padding-top: 4px;">
-            <label id="lbl_inpt">Institución: </label>
-            <input id="entradas" class="form-control entradas" type="text" placeholder="Institución donde estudio" name="institucion" title="Ingrese el nombre de la institución donde estudio" style="">
+           <li id="input_Form" class="aaa">
+          	<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+           <option value="" >Seleccione su centro</option>
+              <option value="" ">Ucateci </option>
+                <option value="" >PMM</optio>
+               <option value="" >Uapa</option>
+               <option value="" >Intec</option>
+               <option value="" >Utesa</option>
+               <option value="" >O & M</option>
+             </select>
           </li>
 
           <li id="input_Form">
@@ -241,12 +247,14 @@
           </li>
           <li id="input_Form" class="aaa">
             <label id="lbl_inpt">Fecha de otros estudios: </label>
-            <input type="text" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese la fecha en que realizo dichos estudios." placeholder="Fecha en que lo realizó">
+            <input type="Date" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese la fecha en que realizo dichos estudios." placeholder="Fecha en que lo realizó">
           </li>
           <li id="input_Form" style="padding-top: 4px;">
             <label id="lbl_inpt">Institución: </label>
             <input id="entradas" class="form-control entradas" type="text" placeholder="Institución donde lo realizó" name="institucion" title="Ingrese el nombre de la institución donde realizo dichos estudios" style="">
           </li>
+         
+        
 
           <hr><!--SEPARADOR-->
 
@@ -315,6 +323,10 @@
           
 
         </ul>
+      		</div>
+      		
+      	</div>
+        
       </div>
       
       

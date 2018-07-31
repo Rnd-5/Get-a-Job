@@ -285,7 +285,7 @@ body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
 
 @media (min-width: 992px) {
   .content-wrapper {
-    margin-left: 250px;
+    margin-left: 0px;
   }
 }
 
@@ -293,9 +293,7 @@ body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
   font-weight: 800;
 }
 
-.navbar-sidenav-tooltip.show {
-  display: none;
-}
+
 
 @media (min-width: 992px) {
   body.sidenav-toggled .content-wrapper {
@@ -361,6 +359,8 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 img[id="iPerfil"]{
   max-width: 10rem;
   max-height: 10rem;
+  display:block;
+ margin:auto;
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 /*----------------------*/
@@ -510,4 +510,11 @@ footer.sticky-footer {
   }
 }
 
+.mensaje h4 {
+  font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-color:#ffffff;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
 
