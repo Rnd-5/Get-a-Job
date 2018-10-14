@@ -9,21 +9,20 @@
   <meta name="author" content="">
   <title>Get-a-Job/Pag. Principal</title>
   <!-- Bootstrap core CSS-->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="C_Principal/css/sb-admin.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/mensaje.css">
+  <link href="../css/sb-admin.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/body.css">
   
 </head>
 
 <body class="fixed-nav sticky-footer " id="page-top" style="background-color: #ebedef;">
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top" id="mainNav" class="text-md-center" style="background-color: #424949;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top" id="mainNav" style="background-color: #424949;">
     <a class="navbar-brand" href="PagP.html" data-toggle="tooltip" title="Ir a la página principal de Get a Job">
-      <img src="LogoF.png" alt="LogoF"/>
+      <img src="../IMG/LogoF.png" alt="LogoF"/>
       Get a Job 
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,10 +90,10 @@
             </a>
 
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <!--
+            <a class="dropdown-item" href="../chat/plantilla_chat.html">
+              
               <strong>Jane Smith</strong>
-              <span class="small float-right text-muted">11:21 AM</span>
+             <!-- <span class="small float-right text-muted">11:21 AM</span>
               <div class="dropdown-message small">I was wondering if you could meet for an appointment at 3:00 instead of 4:00. Thanks!</div>-->
             </a>
 
@@ -106,7 +105,9 @@
               <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can discuss distribution.</div>-->
             </a>
 
-            <div class="dropdown-divider"></div>
+            <div class="dropdown-divider">
+             
+            </div>
             <a class="dropdown-item small" href="#">Ver todos los mensajes.</a>
           </div>
         </li>
@@ -164,7 +165,7 @@
 
         <!--ICONO-PERFIL-->
         <li class="nav-item">
-          <a class="nav-link" href="C_Principal/Formulario_Curriculum.html">
+          <a class="nav-link" href="../Prototipo_VistaPerfil.html">
             <i class="fa fa-fw fa-user" data-toggle="tooltip" title="Ir a mi perfil"></i>
             <span class="d-lg-none">Mi Perfil</span>
           </a>
@@ -180,7 +181,6 @@
 
   </nav>
 
-
   <div class="content-wrapper">
     <div class="container">
       <!-- Breadcrumbs
@@ -192,79 +192,8 @@
         <li class="breadcrumb-item active">Navbar</li>
       </ol>-->
       <!--CONTENIDO-->
-
-       <div class="container-fluid" ">
-        <div class="row" >
-          <div class="col-xs-4 col-md-4 " style="background-color: #CEF6CE">
-            <div class="text-md-center" class="lead">
-              <h4  class="lead"><strong> Mensajes</strong></h4><hr>
-            </div>
-          </div>
-          <div class="col-xs-4 col-md-4 well" style="background-color: #F1F8E0">
-            <div class="text-md-center" class="lead">
-              <h4  class="lead"><strong>Chat</strong></h4><hr>
-              <div class="chat-content">
-                    <div class="col-md-12 chats border">
-                        <ul class="p-0">
-                            
-                    </div>
-                    <div class="col-md-12 message-box border pl-2 pr-2 border-top-0">
-                       <!-- <input type="text" class="pl-0 pr-0 w-100" placeholder="Type a message..." />-->
-                        <input class="form-control" type="text" placeholder="Escribir..." style="border: none;">
-                        <span class="input-group-append">
-                          <a id="btnBusqueda" href="P_ResultadosBusqueda.html">
-                            <button class="btn btn-primary" type="button">
-                              <i class="fa fa-send"> </i>
-                            </button>
-                          </a>
-                        </span>
-                        <!--   <div class="tools">
-                            <i class="fa fa-picture-o" aria-hidden="true" style="padding: px;"></i>
-                            
-                            <i class="fa fa-paperclip" aria-hidden="true"></i>
-                         <i class="fa fa-telegram" aria-hidden="true"></i>
-                            <i class="fa fa-bell" aria-hidden="true"></i>
-                            <i class="fa fa-meh-o" aria-hidden="true"></i>
-                            <i class="fa fa-paperclip" aria-hidden="true"></i>
-                            <i class="fa fa-gamepad" aria-hidden="true"></i>
-                            <i class="fa fa-camera" aria-hidden="true"></i>
-                            <i class="fa fa-folder" aria-hidden="true"></i>
-                            <i class="fa fa-thumbs-o-up m-0" aria-hidden="true"></i>
-                        </div>-->
-
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="col-xs-4 col-md-4 well" style="background-color: #424949" class="block1">
-            <ul class="navbar-nav navbar-sidenav" id="exampleAccordion" ">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" id="iPerfil_mensajes">
-          <span class="d-none d-lg-block" ">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/I_perfil.png" id="iPerfil">
-          </span>
-        </a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-             
-      </ul>
-       
-          </div>
-        </div>
-         
-    </div>
+     
+    
     <!-- /.container-fluid-->
     <!-- /.content-wrapper-->
     <footer class="sticky-footer">
@@ -298,12 +227,12 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin.min.js"></script>
+    <script src="../js/sb-admin.min.js"></script>
     <!-- Custom scripts for this page-->
     <!-- Toggle between fixed and static navbar-->
     <script>

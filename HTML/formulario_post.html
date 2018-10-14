@@ -7,32 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Get-a-Job/Pag. Principal</title>
+  <title>Get-a-Job/formulario_Curriculum</title>
   <!-- Bootstrap core CSS-->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="css/sb-admin.css" rel="stylesheet">
-
-
-  <!-- Theme style -->
-  <link rel="stylesheet" href="../AdminLTE-2.4.5/dist/css/AdminLTE.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.js"></script>
-
-
-  <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
-  
-  
+  <link href="../css/sb-admin.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/estilosFormulario.css">
 </head>
 
-<body class="fixed-nav sticky-footer " id="page-top" style="background-color: #ebedef;">
+<body class="fixed-nav sticky-footer bg-dark" id="page-top" style="background-color: #ebedef;">
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top" id="mainNav" class="text-md-center" style="background-color: #424949;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top" id="mainNav" style="background-color: #424949;">
     <a class="navbar-brand" href="PagP.html" data-toggle="tooltip" title="Ir a la página principal de Get a Job">
-      <img src="LogoF.png" alt="LogoF"/>
+      <img src="../img/LogoF.png" alt="../img/LogoF"/>
       Get a Job 
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,13 +55,12 @@
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Ir a la sección de ofertas de empleo">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="../p_e.html">
             <i class="fa fa-fw fa-briefcase"></i>
-                      </a>
+            
+          </a>
         </li>
       </ul>
-
-      
       <!--BARRA-SUPERIOR-->
       <ul class="navbar-nav ml-auto">
 
@@ -173,7 +161,7 @@
 
         <!--ICONO-PERFIL-->
         <li class="nav-item">
-          <a class="nav-link" href="C_Principal/Formulario_Curriculum.html">
+          <a class="nav-link" href="../Prototipo_VistaPerfil.html">
             <i class="fa fa-fw fa-user" data-toggle="tooltip" title="Ir a mi perfil"></i>
             <span class="d-lg-none">Mi Perfil</span>
           </a>
@@ -189,158 +177,131 @@
 
   </nav>
 
-  <div class="container">
-    <div class="">
-      <!-- Breadcrumbs
-      
+  <div class="content-wrapper">
+    <div class="container-fluid">
+    <!-- Breadcrumbs--
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="#">Dashboard</a>
         </li>
         <li class="breadcrumb-item active">Navbar</li>
-      </ol>-->
-      <!--CONTENIDO-->
-     <!-- Main content -->
-   </div>
-    <section class="content">
-      <!-- Small boxes (Stat box) -->
-      <div class="row">
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner">
-              <h3>150</h3>
+      </ol>
+    -->
+	</div>
+      <h1 class="text-md-center" id="titulo">Formulario Currículum</h1>
+      <hr>
+      
+      	<div class="container cont_1"  >
+			<h3 id="titulo">Datos publicador</h3>
+      		<div class="form-group row">
 
-              <p>New Orders</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-bag"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-green">
-            <div class="inner">
-              <h3>53<sup style="font-size: 20px">%</sup></h3>
+			  <div class="col-xs-4" style="padding: 8px">
+			    <label for="ex1">Nombre empresa</label>
+			    <input class="form-control" id="ex1" type="text" placeholder="escribe el nombre de tu empresa" title="escribe el nombre de tu empresa">
+			  </div>
+			  <div class="col-xs-4" style="padding: 8px">
+			    <label for="ex2">Cargo</label>
+			    <input class="form-control" id="ex2" type="text" placeholder="Escriba el cargo que jerce en esta intitucion" title="Escriba el cargo que jerce en esta intitucion">
+			  </div>
+			  <div class="col-xs-4" style="padding: 8px">
+			    <label for="ex3">Direccion</label>
+			    <input class="form-control" id="ex3" type="text" placeholder="Escribe la direccion de tu empresa" title="Escribe la direccion de tu empresa">
+			  </div>
+			</div>
 
-              <p>Bounce Rate</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-stats-bars"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-yellow">
-            <div class="inner">
-              <h3>44</h3>
+			<hr><!--SEPARADOR-->
 
-              <p>User Registrations</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-person-add"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-red">
-            <div class="inner">
-              <h3>65</h3>
+			<h3 id="titulo">Puesto :</h3>
+			<div class="form-group row ">
 
-              <p>Unique Visitors</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-pie-graph"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+					<div class="col-xs-8" style="width:   490px">
+						<label>Funcion laboral</label>
+					<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+				           <option value="" >Seleccione una</option>
+				              <option value="" ">Programador </option>
+				               <option value="" >Arte y creatividad</optio>
+				               <option value="" >Atencion al cliente</option>
+				               <option value="" >ciencia</option>
+				               <option value="" >Compras</option>
+				               <option value="" >Gestion</option>
+		             </select>
+					
+					</div>
+					
+					<div class="col-xs-4"  >
+						<label  >Tipo de empleo:</label>
+						<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+
+				           <option value="" >Seleccione </option>
+				              <option value="" ">Jornada completa </option>
+				               <option value="" >Media jornada</optio>
+				               <option value="" >Jornada por hora</option>
+				               <option value="" >Temporal</option>
+				               <option value="" >Voluntaria</option>
+				               <option value="" >Practicas</option>
+				             </select>
+					</div>
+
+
+			</div>
+          
+          <div class="form-group row">
+            <div class="col-xs-8"  >
+            <label>sector de la empresa:</label>
+          <select name="titulo" id="inputTitulo" class="form-control tama"  required="required" title="Seleccione el titulo adquirido." >
+                   <option value="" >Seleccione una</option>
+                      <option value="" ">Desarrollo </option>
+                       <option value="" >Alimentacion y bebida</optio>
+                       <option value="" >Almacenamiento</option>
+                       <option value="" >Articulo de consumo</option>
+                       <option value="" >frond-end</option>
+                       <option value="" >Gestion</option>
+                 </select>
+          
           </div>
-        </div>
-        <!-- ./col -->
+          
+          <div class="col-xs-4"  >
+            <label  >Nivel de antiguedad:</label>
+            <select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+
+                   <option value="" >Seleccione </option>
+                      <option value="" ">Sin experiencia </option>
+                       <option value="" >algo de responsabilidad</optio>
+                       <option value="" >Director</option>
+                       <option value="" >Ejecutivo</option>
+                       <option value="" >MANDO INTERMEDIO</option>
+                       <option value="" >Practicas</option>
+                     </select>
+          </div>
+
+          </div>
+          <h3></h3>
+          <textarea id="ent" class="form-control " required="required" title="." placeholder=" Describa el empleo efrecido"></textarea>
+          
+			<hr><!--SEPARADOR-->
+      <h3 id="titulo">Introdusca informacio sobre la empresa</h3>
+			<textarea id="ent" class="form-control " required="required" title="." placeholder=" Describa el empleo efrecido"></textarea>
+      <br>
+      <div class="form-group">
+        <h6>Esta usted de acurdo con los ternos y politicas de nuesta pagina</h3>
+        <input type="radio" name="si" ><label>si</label>
+        
+        <input type="radio" name="no"><label >no</label>
+        
       </div>
-      <!-- /.row -->
-      <!-- Main row -->
-      <div class="row">
-        <!-- Left col -->
-        <section class="col-lg-7 connectedSortable">
-          <!-- Custom tabs (Charts with tabs)-->
-          <div class="nav-tabs-custom">
-            <!-- Tabs within a box -->
-            <ul class="nav nav-tabs pull-right">
-              <li class="active"><a href="#revenue-chart" data-toggle="tab">Area</a></li>
-              <li><a href="#sales-chart" data-toggle="tab">Donut</a></li>
-              <li class="pull-left header"><i class="fa fa-inbox"></i>Visitas</li>
-            </ul>
-            <div class="tab-content no-padding">
-              <!-- Morris chart - Sales -->
-              <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: 300px;"></div>
-              <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 300px;"></div>
-            </div>
-          </div>
-          <!-- /.nav-tabs-custom -->
-        </section>  
-        <section class="col-lg-5 connectedSortable">
-
-          <!-- Map box -->
-          <div class="box box-solid bg-light-blue-gradient">
-            <div class="box-header">
-              <!-- tools box -->
-              <div class="pull-right box-tools">
-                <button type="button" class="btn btn-primary btn-sm daterange pull-right" data-toggle="tooltip"
-                        title="Date range">
-                  <i class="fa fa-calendar"></i></button>
-                <button type="button" class="btn btn-primary btn-sm pull-right" data-widget="collapse"
-                        data-toggle="tooltip" title="Collapse" style="margin-right: 5px;">
-                  <i class="fa fa-minus"></i></button>
-              </div>
-              <!-- /. tools -->
-
-              <i class="fa fa-map-marker"></i>
-
-              <h3 class="box-title">
-                Visitors
-              </h3>
-            </div>
-            <div class="box-body">
-              <div id="world-map" style="height: 250px; width: 100%;"></div>
-            </div>
-            <!-- /.box-body-->
-            <div class="box-footer no-border">
-              <div class="row">
-                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                  <div id="sparkline-1"></div>
-                  <div class="knob-label">Visitors</div>
-                </div>
-                <!-- ./col -->
-                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                  <div id="sparkline-2"></div>
-                  <div class="knob-label">Online</div>
-                </div>
-                <!-- ./col -->
-                <div class="col-xs-4 text-center">
-                  <div id="sparkline-3"></div>
-                  <div class="knob-label">Exists</div>
-                </div>
-                <!-- ./col -->
-              </div>
-              <!-- /.row -->
-            </div>
-          </div>
-          <!-- /.box -->
-      </section>
+         
+		<button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
+      	</div>
+      	
+      
+ 
+      
+      
     </div>
     <!-- /.container-fluid-->
     <!-- /.content-wrapper-->
-    <footer class="sticky-footer ">
-      <div class="container" >
+    <footer class="sticky-footer">
+      <div class="container">
         <div class="text-center">
           <small>Desarrollado por [ 2016-0918 / 2016-0988 ] ©2018</small>
         </div>
@@ -370,23 +331,13 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin.min.js"></script>
+    <script src="../js/sb-admin.min.js"></script>
     <!-- Custom scripts for this page-->
-    <!-- Sparkline -->
-<!-- jQuery 3 -->
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<!-- jQuery UI 1.11.4 -->
-<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<script>
-  $.widget.bridge('uibutton', $.ui.button);
-</script>
-
     <!-- Toggle between fixed and static navbar-->
     <script>
     $('#toggleNavPosition').click(function() {

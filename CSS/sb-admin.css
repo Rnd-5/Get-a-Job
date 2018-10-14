@@ -23,6 +23,9 @@ body.fixed-nav {
   min-height: calc(10vh - 56px);
   padding-top: 1rem;
 }
+body.p{
+  text-align: center;
+}
 
 /*------------------------------------*/
 .scroll-to-top {
