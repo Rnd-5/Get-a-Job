@@ -1,0 +1,135 @@
+
+
+.chats{
+	height: 440px;
+	overflow-x: scroll;
+	overflow-x: hidden;
+	height: 400px; 
+	
+	
+}
+.chats ul li{
+	list-style: none;
+	clear: both;
+	font-size: 15px;
+}
+.chats .send-msg{
+	float: right;
+}
+
+.message-box input{
+	border: none;
+	font-size: 13px;
+	opacity: 0.7;
+}.c{
+	background-color:rgb(215, 230, 230);
+	text-decoration-color: #000;
+}
+ .media .c a, h4{
+	color:#000";
+}
+
+/*----css de los contenedores----*/
+body{
+	background: url(https://www.borgamarmi.it/sito/wp-content/uploads/2017/03/black-kosmos.jpg) no-repeat;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+}
+.main-section h1{	
+	margin:30px 0px;
+	color:#fff;
+}
+.main-section .section{
+	padding:15px; 
+	margin-bottom:50px;
+	background: url() no-repeat;
+	background-size: cover;
+}
+.main-section .section ul{
+	margin:0; 
+	padding:0;
+}
+.main-section .section ul li{
+	display: block;
+ 	margin-bottom:20px;
+  	cursor: grab;
+  	cursor: -moz-grab;
+  	cursor: -webkit-grab;
+  	cursor: move;
+}
+.main-section .section ul li:last-child{
+	margin-bottom:0;
+}
+.main-section .section .media{
+	padding:2px ; 
+	border-radius: 5px;
+ 	background:#fff;
+}
+.main-section .media .media-left img{
+	width:55px;
+	border:2px solid #000;
+	padding:2px;
+}
+.main-section .media .media-body p{
+	padding: 0 15px; 
+	font-size:14px;
+}
+.main-section .media .media-body h4 {
+	color: #000; 
+	font-size: 16px; 
+ 	padding-left: 14px;
+ 	margin:20px 0px 0px;
+}
+
+.btn-custom{
+	background:#00AAA0; 
+	background: url(https://i.pinimg.com/originals/4b/d2/d0/4bd2d03adfe9059518a937030cf373e4.jpg) no-repeat;
+	color:#fff; 
+	border-radius:30px; 
+	border:none; 
+	font-size:10px;
+} 
+.btn-custom:hover{
+	color:#fff;
+}
+/*css del form*/
+element.style {
+}
+.jobs-search-two-pane__details .jobs-box {
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.jobs-details-top-card {
+    padding: 24px 0 0;
+    margin-top: 0;
+}
+.jobs-box {
+    border-radius: 2px;
+    margin-bottom: 16px;
+}
+.jobs-details-top-card {
+    position: relative;
+    z-index: 1;
+}
+.jobs-box--full-width {
+    padding: 0;
+}
+.jobs-box--fadein {
+    animation: fade-in 834ms 1;
+}
+.jobs-box {
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+    transition: box-shadow 83ms;
+    background-color: #fff;
+    background-clip: padding-box;
+    padding: 12px;
+}
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe,  ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, summary, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
